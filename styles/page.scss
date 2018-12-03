@@ -1,0 +1,25 @@
+@font-face {
+	font-family: "PT Sans"; 
+    src: url(font/PTSans-Regular.woff2) format('woff2'),
+        url(font/PTSans-Regular.woff) format('woff') ; 
+} 
+@font-face {
+	font-family: "PT Sans"; 
+    src: url(font/PTSans-Bold.woff2) format('woff2'),
+    url(font/PTSans-Bold.woff) format('woff');
+    font-weight: bold;
+} 
+.page { 
+    font-family: $font-primary; 
+    padding-top: 20px;         
+    &__inner { 
+        min-width: 280px;       
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 0px 15px;
+    }    
+    &__main {
+        margin-top: 28px;
+        margin-bottom: 35px;
+    }
+}
