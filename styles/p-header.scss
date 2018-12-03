@@ -1,52 +1,13 @@
 .p-header {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-end; 
-    @media (max-width: 845px){
-        flex-wrap: wrap;        
-    }
-    @media (max-width: 420px){
-        flex-direction: column;
-        align-items: center;                     
-    }   
-    &__logo {
-        margin-top: 10px;         
-        @media (max-width: 845px){
-            margin-right: 0%;
-            margin-bottom: 20px;           
-        } 
-    }    
-    &__cb {               
-        width: 48%;
-        margin-left: auto;
-        margin-right: 52px;
-        margin-top: 1px;
-        @media (max-width: 845px){
-            order: 3;
-            width: 100%;
-            margin: 0;
-        }
-        @media (max-width: 370px){
-            flex-direction: column;
-                    
-        }       
-    }
-    &__text {
-        width: 198px;
-        line-height: 0em;
-    }
-    &__buyer-place {        
-        width: 198px; /*for pp*/               
-        @media (max-width: 845px){ 
-        }
-        @media (max-width: 420px){
-            margin-bottom: 20px;        
-        }               
-    }
-    &__basket {
-        margin-top: 6px;
-    }
-    &__image {
-        vertical-align: bottom;
-    }    
+    justify-content: flex-start;       
 }
+
+.p-header__cb {
+    margin-left: 40px;
+}
+
+.p-header__buttons {
+    margin-left: auto;
+}
+

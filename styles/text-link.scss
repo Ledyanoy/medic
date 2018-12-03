@@ -1,9 +1,9 @@
 .text-link {
-    font-size: 14px;
-    color: $black-color;        
-    text-decoration: none;    
-    border-bottom: 1px solid $link-color-hover;    
-    &:hover {
-        color: $link-color-hover; 
+    display: block;
+    font-size: 12px;
+    &--adress {
+        padding-left: 12px;
+        color: $text-link-color; 
+        padding-top: 3px;
     }
 }

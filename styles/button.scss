@@ -1,14 +1,21 @@
 .button {
-    color: $white-color;
-    background-color: $search-btn;
-    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    font-size: 10px;
     font-weight: bold;
-    width: 100%;
-    height: 100%;
-    border: none;
-    border-radius: 3px; 
-    cursor: pointer;     
-    &:active {        
-        background: $link-color;
-    }    
+    padding: 10px 0;
+    box-shadow: none;
+    &--white {
+        color: $button-w-color;
+        background: white;
+        border: 1px solid $button-w-color;
+        margin-right: 16px;
+        width: 104px;  
+    }
+    &--grey {
+        color: white;
+        background: $button-g-back;
+        border: none;
+        width: 104px;        
+    }
 }
