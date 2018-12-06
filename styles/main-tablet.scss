@@ -1,0 +1,20 @@
+.main-tablet {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-tablet__right {
+    width: 368px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.main-tablet__left {
+    width: 780px;
+}
+.main-tablet__slider {    
+    height: 304px;
+    background-color: white;
+    margin-bottom: 15px;
+}

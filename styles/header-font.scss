@@ -1,0 +1,40 @@
+.header-font {
+    font-weight: bold;  
+    &--h2 {
+        font-size: 24px;
+        text-transform: uppercase;
+    }
+    &--h3 {
+        font-size: 18px;
+    }    
+    &--tablet {
+        padding:  18px 0 18px 75px;
+        position: relative;
+        &::before {
+            content: "";
+            display: block;
+            position: absolute;
+            width: 56px;
+            height: 56px;
+            left: 0;
+            top: 0;
+        }
+    } 
+    &--actual::before {
+        background-image: url(pictures/icons/actual.svg);
+    }
+    &--station::before {        
+        background-image: url(pictures/icons/station.svg);
+    }
+    &--children::before {        
+        background-image: url(pictures/icons/children.svg);
+    }
+    &--diagnostic::before {        
+        background-image: url(pictures/icons/diagnostic.svg);
+    }
+    &--safety::before {        
+        background-image: url(pictures/icons/safety.svg);
+    }
+}  
+
+ 

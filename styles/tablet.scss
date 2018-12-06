@@ -1,0 +1,15 @@
+.tablet {
+    display: flex;
+    justify-content: space-between;    
+}
+
+.tablet__right-item {
+    display: block;
+    width: 49%;  
+    min-height: 288px;     
+}
+
+.tablet__left-item {     
+    height: 192px;  
+    box-sizing: border-box;
+}

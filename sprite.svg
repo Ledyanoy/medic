@@ -1,0 +1,22 @@
+<svg width="0" height="0" class="hidden">
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" id="money">
+    <rect x="4.5" y="19.5" width="15" height="2" rx=".5" stroke="#5B5B5B"></rect>
+    <rect x="4.5" y="17.5" width="15" height="2" rx=".5" stroke="#5B5B5B"></rect>
+    <rect x="4.5" y="15.5" width="15" height="2" rx=".5" stroke="#5B5B5B"></rect>
+    <circle cx="14" cy="10" r="5.5" stroke="#5B5B5B"></circle>
+    <path d="M13.316 10.922V13h-.7V7.692h1.958c.58 0 1.035.148 1.364.444.33.297.495.69.495 1.178 0 .515-.161.913-.485 1.192-.32.277-.781.416-1.381.416h-1.25zm0-.572h1.258c.374 0 .661-.088.86-.263.2-.177.3-.433.3-.766 0-.316-.1-.568-.3-.758-.199-.19-.472-.288-.82-.295h-1.298v2.082z"
+      fill="#5B5B5B"></path>
+    <path d="M12 12h2.5" stroke="#5B5B5B" stroke-width=".5"></path>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" id="services">
+    <circle cx="12" cy="12" r="3.5" stroke="#5B5B5B"></circle>
+    <circle cx="6" cy="6" r="1.5" stroke="#5B5B5B"></circle>
+    <circle cx="18" cy="18" r="1.5" stroke="#5B5B5B"></circle>
+    <circle cx="18" cy="6" r="1.5" stroke="#5B5B5B"></circle>
+    <circle cx="12" cy="4" r="1.5" stroke="#5B5B5B"></circle>
+    <circle cx="12" cy="20" r="1.5" stroke="#5B5B5B"></circle>
+    <circle cx="20" cy="12" r="1.5" stroke="#5B5B5B"></circle>
+    <circle cx="4" cy="12" r="1.5" stroke="#5B5B5B"></circle>
+    <circle cx="6" cy="18" r="1.5" stroke="#5B5B5B"></circle>
+  </symbol>
+</svg>

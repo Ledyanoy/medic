@@ -10,11 +10,11 @@
     <body class="page"> 
       <header class="page__header">
         <div class="page__top">
-          <div class="wrapper p-header">
-            <a href="" class="p-header__logo">
-              <img class="p-header__image" src="pictures/logo.png" srcset="pictures/logo.png 1x, pictures/logo2x.png 2x" alt="logo" width="200px" height="39px">
+          <div class="wrapper page-header page-header--top">
+            <a href="" class="page-header__logo">
+              <img class="page-header__image" src="pictures/logo.png" srcset="pictures/logo.png 1x, pictures/logo2x.png 2x" alt="logo" width="200" height="39">
             </a>
-            <div class="p-header__cb contact-box">  
+            <div class="page-header__contact-box contact-box">  
               <a href="tel:(3412)65-51-51" class="top-link top-link--phone">(3412)65-51-51</a>
               <div class="contact-box__adress adress">
                   <a href="" class="top-link top-link--adress">г.Ижевск, ул. Шумайлова, 20а</a> 
@@ -22,14 +22,15 @@
               </div>
               <ul class="interactive contact-box__interactive">
                 <li>
-                  <a href="" class="interactive-button"><img src="pictures/icons/low_vision.svg" alt="версия для слабовидящих" width="20px" height="20px"></a>            
+                  <a href="" class="interactive-button"><img src="pictures/icons/low_vision.svg" alt="версия для слабовидящих" width="20" height="20"></a>            
                 </li>
                 <li>
-                  <a href="" class="interactive-button"><img src="pictures/icons/loop.svg" alt="поиск" width="20px" height="20px"></a>            
+                  <a href="" class="interactive-button"><img src="pictures/icons/loop.svg" alt="поиск" width="20" height="20"></a>            
                 </li>
               </ul>
             </div>
-            <ul class="p-header__buttons header-buttons">
+            
+            <ul class="page-header__buttons header-buttons">
               <li>
                 <button class="button button--white">Вызвать врача</button>
               </li>
@@ -40,144 +41,146 @@
           </div>
         </div>
 
-        <div class="p-header p-header--menu">
-          <div class="wrapper">
-            <ul class="menu">
-              <li><a href="">Услуги</a></li>
-              <li><a href="">Цены</a></li>
-              <li><a href="">Врачи</a></li>
-              <li><a href="">Расписание врачей</a></li>
-              <li><a href="">Контакты</a></li>
+        <div class="page-header page-header--menu">
+          <div class="wrapper page-header__munu">
+            <ul class="main-menu">
+              <li class="main-menu__item"><a href="" class="menu-link menu-link--srvices menu-link--more">Услуги</a></li>
+              <li class="main-menu__item"><a href="" class="menu-link menu-link--money">Цены</a></li>
+              <li class="main-menu__item"><a href="" class="menu-link menu-link--doctor menu-link--more">Врачи</a></li>
+              <li class="main-menu__item"><a href="" class="menu-link menu-link--time menu-link--more">Расписание врачей</a></li>
+              <li class="main-menu__item"><a href="" class="menu-link menu-link--contacts">Контакты</a></li>
             </ul>
-            <div>
-              <a href="">Личный кабинет</a>
+            <div class="main-menu__private-area">
+              <a href="" class="menu-link menu-link--more menu-link--private">Личный кабинет</a>
             </div>
           </div>
         </div>          
       </header>
-      <main class="page__main">
+      <main class="page__main page--main">
         <div class="main wrapper">
-          <div class="main__left">
-            <div>slider</div>
-            <ul>
-              <li class="tablet-item">
-                <a href="">
-                  <h4>Современная хирургия</h4>
-                  <ul>
-                    <li>Более 300 видов операций </li>
-                    <li>Fast track хирургия </li>
-                    <li>Хирургия одного дня</li>
-                    <li>Симультатные (сочетанные) операции</li>
-                  </ul> 
-              </a>           
+          <h1 class="visually-hidden">Медицея</h1>
+          <div class="main-tablet">
+            <div class="main-tablet__left">
+              <div class="main-tablet__slider">slider</div>
+              <ul class="tablet tablet--row">
+                <li class="tablet__right-item"> 
+                  <a href="" class="tablet-item tablet-item--left">          
+                    <h3 class="header-font header-font--h3 header-font--tablet header-font--actual">Современная хирургия</h3>
+                    <ul class="tablet-item__list">
+                      <li class="tablet-item__list-item">Более 300 видов операций</li>
+                      <li class="tablet-item__list-item">Fast track хирургия</li>
+                      <li class="tablet-item__list-item">Хирургия одного дня</li>
+                      <li class="tablet-item__list-item">Симультатные (сочетанные) операции</li>
+                    </ul> 
+                  </a>                             
+                </li>
+                <li class="tablet__right-item"> 
+                  <a href="" class="tablet-item tablet-item--left">               
+                    <h3 class="header-font header-font--h3 header-font--tablet header-font--station">Стационар</h3>              
+                    <ul class="tablet-item__list">
+                      <li class="tablet-item__list-item">Современное оборудование</li>
+                      <li class="tablet-item__list-item">Уютные палаты с удобной мебелью</li>
+                      <li class="tablet-item__list-item">Санузлы с душевыми кабинами в каждой палате</li>                  
+                    </ul> 
+                  </a>                      
+                </li>
+              </ul>
+            </div>
+            <ul class="main-tablet__right">
+                <li class="tablet__left-item">
+                  <a href="" class="tablet-item tablet-item--right" >
+                    <h3 class="header-font header-font--h3 header-font--tablet header-font--children">Детское отделение</h3>
+                    <ul class="tablet-item__list">
+                      <li class="tablet-item__list-item">45 детских специалистов</li>
+                      <li class="tablet-item__list-item">Диагностика и исследования</li>
+                    </ul>
+                  </a>
               </li>
-              <li class="tablet-item">
-                <a href="">
-                  <h4>Стационар</h4>              
-                  <ul>
-                    <li>Современное оборудование</li>
-                    <li>Уютные палаты с удобной мебелью</li>
-                    <li>Санузлы с душевыми кабинами в каждой палате</li>                  
-                  </ul>  
-                </a>      
+              <li class="tablet__left-item">
+                <a href="" class="tablet-item tablet-item--right">
+                  <h3 class="header-font header-font--h3 header-font--tablet header-font--diagnostic">Диагностика</h3>
+                  <ul class="tablet-item__list">
+                    <li class="tablet-item__list-item">Более 1500 лаб. исследований<li>
+                    <li class="tablet-item__list-item">Сотрудничество с лабораторией KDL (г. Москва)</li>
+                    <li class="tablet-item__list-item">Рентгенография</li>
+                  </ul>
+                </a>
+              </li>
+              <li class="tablet__left-item">
+                <a href="" class="tablet-item tablet-item--right">
+                  <h3 class="header-font header-font--h3 header-font--tablet header-font--safety">Безопасность</h3>
+                  <ul class="tablet-item__list">
+                    <li class="tablet-item__list-item">Наличие собственного централизованного 
+                      стерлизационного отделения</li>
+                  </ul>
+                </a>
               </li>
             </ul>
           </div>
-          <ul class="main__right">
-              <li class="tablet-item">
-                <a href="">
-                  <h4>Детское отделение</h4>
-                  <ul>
-                    <li>45 детских специалистов</li>
-                    <li>Диагностика и исследования</li>
-                  </ul>
-                </a>
-            </li>
-            <li class="tablet-item">
-              <a href="">
-                <h4>Диагностика</h4>
-                <ul>
-                  <li>Более 1500 лаб. исследований<li>
-                  <li>Сотрудничество с лабораторией KDL (г. Москва)</li>
-                  <li>Рентгенография</li>
-                </ul>
-              </a>
-            </li>
-            <li class="tablet-item">
-              <a href="">
-                <h4>Безопасность</h4>
-                <ul>
-                  <li>Наличие собственного централизованного 
-                    стерлизационного отделения</li>
-                </ul>
-              </a>
-            </li>
-          </ul>
-
-          <section class="about">
-            <h2 class="font--h2">О клинике «Медицея»</h2>
-            <ul>
-              <li>
-                <img src="" alt="">
-                <p>Топ-100 частных клиник России</p>                
+          <section class="main__about">
+            <h2 class="header-font header-font--h2">О клинике «Медицея»</h2>
+            <ul class="about-list main__about-list">
+              <li class="about-list-item about-list__item">
+                <img src="pictures/icons/new.svg" alt="top 100" width="48" height="48">
+                <p class="font font--about about-list-item__text">Топ-100 частных клиник России</p>                
               </li>
-              <li>
-                <img src="" alt="">
-                <p>Лет экспертного опыта</p>
+              <li class="about-list-item about-list__item">
+                <img src="pictures/icons/new.svg" alt="years" width="48" height="48">
+                <p class="font font--about about-list-item__text">Лет экспертного опыта</p>
               </li>            
-              <li>
-                <img src="" alt="">
-                <p>Современное оборудование</p>
+              <li class="about-list-item about-list__item">
+                <img src="pictures/icons/new.svg" alt="top" width="48" height="48">
+                <p class="font font--about about-list-item__text">Современное оборудование</p>
               </li>
-              <li>
-                <img src="" alt="">
-                <p>Online запись на прием</p>
+              <li class="about-list-item about-list__item">
+                <img src="pictures/icons/new.svg" alt="online" width="48" height="48">
+                <p class="font font--about about-list-item__text">Online запись<br> на прием</p>
               </li>
-              <li>
-                  <img src="" alt="">
-                  <p>Электронные мед. карты</p>
+              <li class="about-list-item about-list__item">
+                  <img src="pictures/icons/electronik.svg" alt="electron" width="48" height="48">
+                  <p class="font font--about about-list-item__text">Электронные мед. карты</p>
               </li>
             </ul>
           </section>
           
-          <section class="services">
-            <h2 class="font--h2">услуги</h2>
-            <ul>
-              <li>
-                <a href="">
-                  <img src="" alt="Взрослым">
-                  <p>Взрослым</p>
+          <section class="main__services">
+            <h2 class="header-font header-font--h2">услуги</h2>
+            <ul class="services-list main__services-list">
+              <li class="services-list__item">
+                <a href="" class="services-item">
+                  <img src="pictures/icons/old.svg" alt="Взрослым" width="48" height="48">
+                  <p class="font font--service">Взрослым</p>
                 </a>                
               </li>
-              <li>
-                <a href="">
-                  <img sr c="" alt="Детям">
-                  <p>Детям</p>
+              <li class="services-list__item">
+                <a href="" class="services-item">
+                  <img src="pictures/icons/old.svg" alt="детям" width="48" height="48">
+                  <p class="font font--service">Детям</p>
                 </a>         
               </li>            
-              <li>
-                <a href="">
-                  <img src="" alt="Диагностика">
-                  <p>Диагностика</p>
+              <li class="services-list__item">
+                <a href="" class="services-item">
+                  <img src="pictures/icons/diagnostic.svg" alt="диагностика" width="48" height="48">
+                  <p class="font font--service">Диагностика</p>
                 </a>
               </li>
-              <li>
-                <a href="">
-                  <img src="" alt="Лаборатория">
-                  <p>Лаборатория</p>
+              <li class="services-list__item">
+                <a href="" class="services-item">
+                    <img src="pictures/icons/lab.svg" alt="Лаборатория" width="48" height="48">
+                  <p class="font font--service">Лаборатория</p>
                 </a>
               </li>
-              <li>
-                <a href="">
-                  <img src="" alt="Комплексные программы">
-                  <p>Комплексные программы</p>
+              <li class="services-list__item">
+                <a href="" class="services-item">
+                  <img src="pictures/icons/lab.svg" alt="Комплексные программы" width="48" height="48">
+                  <p class="font font--service-last">Комплексные программы</p>
                 </a>
               </li>
             </ul>
           </section>
 
           <section class="experts">
-            <h2 class="font--h2">У нас работают лучшие специалисты</h2>
+            <h2 class="font font--h2">У нас работают лучшие специалисты</h2>
             <div class="slider-wrapper">
               <ul>
                 <li>
@@ -217,7 +220,7 @@
           </section>
 
           <section>
-              <h2 class="font--h2">новости</h2>
+              <h2 class="h-font h-font--h2">новости</h2>
               <ul>
                 <li>
                   <a href="">
@@ -254,16 +257,16 @@
           </section>
 
           <section>
-            <h2 class="font--h2">Как нас найти</h2>
+            <h2 class="h-font h-font--h2">Как нас найти</h2>
             <div>
               <div>
                 iframe
               </div>
               <div>
-                <a href="" class="p-header__logo">
+                <a href="" class="page-header__logo">
                   <img class="p-header__image" src="pictures/logo.png" srcset="pictures/logo.png 1x, pictures/logo2x.png 2x" alt="logo" width="157" height="80">
                 </a>
-                <div class="p-header__cb contact-box">  
+                <div class="page-header__contact-box contact-box">  
                   <a href="tel:(3412)65-51-51" class="phone">(3412)65-51-51</a>
                   <div class="adress">
                       г.Ижевск, ул. Шумайлова, 20а
@@ -306,14 +309,17 @@
                       </li>                                 
                     </ul>
                   </div>
+                </div>
               </div>
             </div>
           </section>
+
         </div>
-        <div clas="main--footer">
+
+        <div class="main--footer">
             <div class="wrapper">
                 <section>
-                    <h2 class="font--h2">Остались вопросы? Напишите нам</h2>
+                    <h2 class="h-font h-font--h2">Остались вопросы? Напишите нам</h2>
                     <div>
                       <form action="">
                         <div>
@@ -342,7 +348,7 @@
         </div>
       </main>
 
-      <footer class="p-footer">
+      <footer class="page-footer">
         <div class="wrapper">
           <ul class="footer-main">
             <li>
@@ -413,6 +419,5 @@
           </ul>
         </div> 
       </footer>
-      <script src="script/swiper.min.js"></script>
-      
+      <script src="script/swiper.min.js"></script>     
     </body>

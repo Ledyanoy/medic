@@ -1,0 +1,17 @@
+.font{
+    &--about {
+        line-height: 24px;
+    }
+    &--service {
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: bold;
+    }
+    &--service-last {
+        font-size: 14px;
+        line-height: 16px;
+        font-weight: bold;
+        max-width: 150px;
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,93 @@
+.menu-link {
+    display: block;
+    color: $font-color;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    position: relative;
+    &--more::after {
+        content: "";
+        display: block;
+        position: absolute;        
+        right:5px;
+        top: 45%;
+        border: 5px solid transparent;	border-top: 5px solid $font-color;
+    }    
+    &--srvices::before {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        left: 0;
+        top: 15%;
+        background-image: url(pictures/icons/services.svg);
+    }
+    &--money::before {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        left: 0;
+        top: 15%;
+        background-image: url(pictures/icons/money.svg);
+    }
+    &--doctor::before {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        left: 0;
+        top: 15%;
+        background-image: url(pictures/icons/doctor.svg);
+    }
+
+    &--time::before {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        left: 0;
+        top: 15%;
+        background-image: url(pictures/icons/time.svg);
+    }
+
+    &--contacts::before {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        left: 0;
+        top: 15%;
+        background-image: url(pictures/icons/contacts.png);
+    }
+    &:hover {
+        background-color: $menu-hover-color;
+    }
+    &--private {
+        padding-left: 40px;
+        font-size: 14px;
+        font-weight: bold;
+        &::before {
+            content: "";
+            display: block;
+            position: absolute;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%; 
+            left: 0;
+            top: 2px;
+            background-color: $interactive-back;            
+        }
+        &:hover {
+            background-color: $menu-vback-color;
+            opacity: 0.8;
+        }
+    }
+}

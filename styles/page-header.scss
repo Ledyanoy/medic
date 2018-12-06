@@ -1,0 +1,23 @@
+.page-header {
+    display: flex;
+    justify-content: flex-start;
+    &--top {
+        padding-bottom: 10px;
+    }
+    &--menu {
+        background-color: $menu-vback-color;
+    }     
+}
+
+.page-header__contact-box {
+    margin-left: 40px;
+}
+
+.page-header__buttons {
+    margin-left: auto;
+}
+
+.page-header__munu {
+    width: 100%;
+    display: flex;
+}

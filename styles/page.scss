@@ -11,7 +11,10 @@
 } 
 .page { 
     font-family: $font-primary; 
-    color: $font-color;     
+    color: $font-color;  
+    &--main {
+        background-color: $main-back;
+    }   
 }
 
 .page__header {

@@ -8,7 +8,8 @@
     "scss": "node-sass styles/styles.scss styles.css -w -r styles",
     "server": "browser-sync start --server --files index.html, styles.css",
     "dev": "concurrently --kill-others \"npm run scss\" \"npm run server\"",
-    "autoprefixer": "postcss -u autoprefixer -r styles.css*"
+    "autoprefixer": "postcss -u autoprefixer -r styles.css*",    
+    "icons": "svgo -f images/icons && mkdir -p dist/images && svg-sprite-generate -d images/icons -o dist/images/icons.svg"
   },
   "repository": {
     "type": "git",
@@ -31,6 +32,8 @@
     "clean-css": "^4.1.9",
     "concurrently": "^3.5.1",
     "node-sass": "^4.6.1",
-    "postcss-cli": "^4.1.1"
+    "postcss-cli": "^4.1.1",
+    "svg-sprite-generator": "0.0.7",
+    "svgo": "^1.1.1"
   }
 }

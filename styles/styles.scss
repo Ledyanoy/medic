@@ -2,7 +2,7 @@
 @import 'variables';
 @import 'page';
 @import 'wrapper';
-@import 'p-header';
+@import 'page-header';
 @import 'contact-box';
 @import 'top-link';
 @import 'header-buttons';
@@ -12,6 +12,16 @@
 @import 'main';
 @import 'caption-text';
 @import 'main-menu';
+@import 'menu-link';
+@import 'main-tablet';
+@import 'tablet';
+@import 'tablet-item';
+@import 'header-font';
+@import 'about-list';
+@import 'about-list-item';
+@import 'font';
+@import 'services-list';
+@import 'services-item';
 @import 'present';
 @import 'slider';
 @import 'swiper-container';
@@ -22,9 +32,11 @@
 @import 'reviews';
 @import 'subscribe';
 @import 'button';
-@import 'p-footer';
+@import 'page-footer';
 @import 'footer-menu';
 @import 'footer-body';
 @import 'text-additional';
 @import 'text-link';
 @import 'footer-end';
+
+
