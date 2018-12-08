@@ -2,7 +2,7 @@
     display: flex;
     justify-content: flex-start;
     &--top {
-        padding-bottom: 10px;
+        padding-bottom: 15px;
     }
     &--menu {
         background-color: $menu-vback-color;
@@ -21,3 +21,8 @@
     width: 100%;
     display: flex;
 }
+
+.page-header__private-area {
+    margin-left: auto;
+}
+

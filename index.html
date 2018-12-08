@@ -3,7 +3,7 @@
     <head>       
       <meta charset="utf-8">
       <link href="styles.css" rel="stylesheet"> 
-      <link href="script/swiper.min.css" rel="stylesheet">  
+      <link href="styles/swiper.min.css" rel="stylesheet">  
       <title>Mediceya</title>
       <meta name="viewport" content="width=device-width,initial-scale=1">	  
     </head>	   
@@ -32,10 +32,10 @@
             
             <ul class="page-header__buttons header-buttons">
               <li>
-                <button class="button button--white">Вызвать врача</button>
+                <a class="button button--header button--white">Вызвать врача</a>
               </li>
               <li>
-                <button class="button button--grey">Записаться</button>
+                <a class="button button--header button--grey">Записаться</a>
               </li>
             </ul>
           </div>
@@ -50,18 +50,47 @@
               <li class="main-menu__item"><a href="" class="menu-link menu-link--time menu-link--more">Расписание врачей</a></li>
               <li class="main-menu__item"><a href="" class="menu-link menu-link--contacts">Контакты</a></li>
             </ul>
-            <div class="main-menu__private-area">
+            <div class="page-header__private-area">
               <a href="" class="menu-link menu-link--more menu-link--private">Личный кабинет</a>
             </div>
           </div>
         </div>          
       </header>
-      <main class="page__main page--main">
-        <div class="main wrapper">
+      <main class="main main--grey">
+        <div class="wrapper">
           <h1 class="visually-hidden">Медицея</h1>
           <div class="main-tablet">
             <div class="main-tablet__left">
-              <div class="main-tablet__slider">slider</div>
+              <div class="main-tablet__slider">
+
+                  <div class="swiper-container s1">                      
+                      <ul class="swiper-wrapper">                          
+                          <li class="swiper-slide">
+                            <a href="" class="tablet-item tablet-item--slider">
+                              <h2 class="header-font header-font--slider tablet-item__slider-header">Акция ноября с названием</h2>
+                              <p class="tablet-item__slider-text">Ключевая информация</p>
+                              <p class="tablet-item__slider-text">по акции пара строк</p>
+                              <p class="tablet-item__slider-text">или больше</p>
+                              <span class="button button--grey button--slider tablet-item__slider-btn">подробнее</span>
+                            </a> 
+                          </li>
+                          <li class="swiper-slide">
+                            <a href="" class="tablet-item tablet-item--slider">
+                              <h2 class="header-font header-font--slider tablet-item__slider-header">Акция 2</h2>
+                              <p class="tablet-item__slider-text">Ключевая информация</p>
+                              <p class="tablet-item__slider-text">по акции пара строк</p>
+                              <p class="tablet-item__slider-text">или больше</p>
+                              <span class="button button--grey button--slider tablet-item__slider-btn">подробнее</span>
+                            </a> 
+                          </li>                          
+                          <li class="swiper-slide">Slide 3</li>                          
+                      </ul>                      
+                      <div class="swiper-pagination"></div>                
+                      <div class="swiper-button-prev"></div>
+                      <div class="swiper-button-next"></div>               
+                  </div>               
+                
+              </div>
               <ul class="tablet tablet--row">
                 <li class="tablet__right-item"> 
                   <a href="" class="tablet-item tablet-item--left">          
@@ -179,44 +208,56 @@
             </ul>
           </section>
 
-          <section class="experts">
-            <h2 class="font font--h2">У нас работают лучшие специалисты</h2>
-            <div class="slider-wrapper">
-              <ul>
-                <li>
-                  <a href="">
-                    <img src="" alt="Крающкина Лариса Геннадьевна">
-                    <p class="name">Крающкина Лариса Геннадьевна</p>
-                    <p class="description">Врач ульразвуковой и функциональной диагностики</p>
-                    <button class="button">Записаться</button>
-                  </a>
-                </li>
-                <li>
-                  <a href="">
-                    <img src="" alt="Крающкина Лариса Геннадьевна">
-                    <p class="name">Крающкина Лариса Геннадьевна</p>
-                    <p class="description">Врач ульразвуковой и функциональной диагностики</p>
-                    <button class="button">Записаться</button>
-                  </a>
-                </li>
-                <li>
-                  <a href="">
-                    <img src="" alt="Крающкина Лариса Геннадьевна">
-                    <p class="name">Крающкина Лариса Геннадьевна</p>
-                    <p class="description">Врач ульразвуковой и функциональной диагностики</p>
-                    <button class="button">Записаться</button>
-                  </a>
-                </li>
-                <li>
-                  <a href="">
-                    <img src="" alt="Крающкина Лариса Геннадьевна">
-                    <p class="name">Крающкина Лариса Геннадьевна</p>
-                    <p class="description">Врач ульразвуковой и функциональной диагностики</p>
-                    <button class="button">Записаться</button>
-                  </a>
-                </li>            
-              </ul>
-            </div>
+          <section class="main__experts">
+            <h2 class="header-font header-font--h2">У нас работают лучшие специалисты</h2>
+            <div class="main__experts-list">
+              <div class="swiper-container s2">
+                <ul class="swiper-wrapper">
+                  <li class="swiper-slide">
+                    <a href="" class="expert-card expert-card--white">
+                      <img src="pictures/person.jpg" class="expert-card__image" alt="Крающкина Лариса Геннадьевна" >
+                      <p class="expert-card__name font font--person-name">Крающкина Лариса Геннадьевна</p>
+                      <p class="expert-card__desc font font--person-desc">Врач ульразвуковой и функциональной диагностики</p>
+                      <span class="button button--expert expert-card__button">Записаться</span>
+                    </a>
+                  </li>
+                  <li class="swiper-slide">
+                    <a href="" class="expert-card expert-card--white">
+                      <img src="pictures/person.jpg" class="expert-card__image" alt="Крающкина Лариса Геннадьевна" >
+                      <p class="expert-card__name font font--person-name">2</p>
+                      <p class="expert-card__desc font font--person-desc">Врач ульразвуковой и функциональной диагностики</p>
+                      <span class="button button--expert expert-card__button">Записаться</span>
+                    </a>
+                  </li>
+                  <li class="swiper-slide">
+                    <a href="" class="expert-card expert-card--white">
+                      <img src="pictures/person.jpg" class="expert-card__image" alt="Крающкина Лариса Геннадьевна" >
+                      <p class="expert-card__name font font--person-name">3</p>
+                      <p class="expert-card__desc font font--person-desc">Врач ульразвуковой и функциональной диагностики</p>
+                      <span class="button button--expert expert-card__button">Записаться</span>
+                    </a>
+                  </li>
+                  <li class="swiper-slide">
+                    <a href="" class="expert-card expert-card--white">
+                      <img src="pictures/person.jpg" class="expert-card__image" alt="Крающкина Лариса Геннадьевна" >
+                      <p class="expert-card__name font font--person-name">4</p>
+                      <p class="expert-card__desc font font--person-desc">Врач ульразвуковой и функциональной диагностики</p>
+                      <span class="button button--expert expert-card__button">Записаться</span>
+                    </a>
+                  </li>
+                  <li class="swiper-slide">
+                    <a href="" class="expert-card expert-card--white">
+                      <img src="pictures/person.jpg" class="expert-card__image" alt="Крающкина Лариса Геннадьевна" >
+                      <p class="expert-card__name font font--person-name">5</p>
+                      <p class="expert-card__desc font font--person-desc">Врач ульразвуковой и функциональной диагностики</p>
+                      <span class="button button--expert expert-card__button">Записаться</span>
+                    </a>
+                  </li>                                         
+                </ul>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+              </div> 
+            </div>             
           </section>
 
           <section>
@@ -419,5 +460,32 @@
           </ul>
         </div> 
       </footer>
-      <script src="script/swiper.min.js"></script>     
+      <script src="script/swiper.min.js"></script>   
+      <script>
+          var swiper1 = new Swiper('.s1',  {
+            slidesPerView: 1, 
+            spaceBetween: 16,             
+            loop: true,
+            pagination: {
+              el: '.swiper-pagination',
+              clickable: true,
+            },
+            navigation: {
+              nextEl: '.swiper-button-next',
+              prevEl: '.swiper-button-prev',
+            },
+          }); 
+          var swiper2 = new Swiper('.s2', {
+            slidesPerView: 4,  
+            spaceBetween: 16,          
+            slidesPerGroup: 1,
+            loop: true,
+            loopFillGroupWithBlank: true,            
+            navigation: {
+              nextEl: '.swiper-button-next',
+              prevEl: '.swiper-button-prev',
+            },
+          });
+        
+      </script>
     </body>

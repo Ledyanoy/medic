@@ -1,0 +1,40 @@
+.expert-card {
+    display: block;
+    padding: 25px;
+    border-radius: 3px;
+    text-align: center;
+    text-decoration: none;
+    min-height: 273px;
+    position: relative;
+    &--white {
+        background-color: $tablet-item-back;
+    }
+    &:hover {
+        -webkit-box-shadow: 0px 6px 21px 0px rgba(107,107,107,1);
+        -moz-box-shadow: 0px 6px 21px 0px rgba(107,107,107,1);
+        box-shadow: 0px 6px 21px 0px rgba(107,107,107,1);
+    }
+}
+
+.expert-card__image {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.expert-card__name {
+    margin-top: 10px;
+}
+
+.expert-card__desc {
+    margin-top: 10px;
+}
+
+.expert-card__button {
+    width: 90px;    
+    position: absolute;
+    bottom: 20px;
+    bottom: 30px;
+    transform: translateX(60%);
+}

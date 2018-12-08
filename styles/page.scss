@@ -11,12 +11,10 @@
 } 
 .page { 
     font-family: $font-primary; 
-    color: $font-color;  
-    &--main {
-        background-color: $main-back;
-    }   
+    color: $font-color; 
+      
 }
 
 .page__header {
-    margin-top: 24px;
+    margin-top: 20px;
 }

@@ -3,15 +3,27 @@
         line-height: 24px;
     }
     &--service {
-        font-size: 14px;
+        font-size: 17px;
         line-height: 24px;
         font-weight: bold;
+        margin-top: 5px;
     }
     &--service-last {
-        font-size: 14px;
+        font-size: 17px;
         line-height: 16px;
         font-weight: bold;
         max-width: 150px;
-        margin: 0 auto;
+        margin: 7px auto 0 auto;
+    }
+    &--person-name {
+        font-size: 18px;
+        line-height: 24px;
+        color: $font-color;
+        font-weight: bold;
+    }
+    &--person-desc {
+        font-size: 12px;
+        line-height: 16px;
+        color: $person-text;        
     }
 }

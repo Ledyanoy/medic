@@ -1,21 +1,35 @@
 .button {
+    display: block;
+    text-align: center;
     text-transform: uppercase;
-    border-radius: 4px;
-    font-size: 10px;
-    font-weight: bold;
-    padding: 10px 0;
-    box-shadow: none;
+    border-radius: 4px;    
+    font-weight: bold;    
+    &--header {
+        font-size: 10px;
+        padding: 10px 0; 
+        width: 104px;  
+    }   
     &--white {
         color: $button-w-color;
         background: white;
         border: 1px solid $button-w-color;
-        margin-right: 16px;
-        width: 104px;  
+        margin-right: 16px;        
     }
     &--grey {
         color: white;
         background: $button-g-back;
-        border: none;
-        width: 104px;        
+        border: none;               
     }
+    &--expert {
+        color: white;
+        font-size: 12px;
+        background: $button-g-back;
+        padding: 6px;
+    }
+    &--slider {        
+        width: 170px;
+        font-size: 14px;
+        padding: 15px 0;
+    }
+
 }

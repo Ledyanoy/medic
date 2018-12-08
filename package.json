@@ -8,7 +8,7 @@
     "scss": "node-sass styles/styles.scss styles.css -w -r styles",
     "server": "browser-sync start --server --files index.html, styles.css",
     "dev": "concurrently --kill-others \"npm run scss\" \"npm run server\"",
-    "autoprefixer": "postcss -u autoprefixer -r styles.css*",    
+    "autoprefixer": "postcss -u autoprefixer -r styles.css*",
     "icons": "svgo -f images/icons && mkdir -p dist/images && svg-sprite-generate -d images/icons -o dist/images/icons.svg"
   },
   "repository": {
