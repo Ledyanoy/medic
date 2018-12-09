@@ -1,0 +1,37 @@
+.contact-link {
+    display: block;    
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    position: relative;
+    color: $font-color;  
+    &--phone {
+        padding-left: 16px;
+        width: 110px;
+        &::before {
+            content: "";
+            display: block;
+            position: absolute;
+            width: 12px;
+            height: 12px;
+            left: 0;
+            top:0;
+            background-image: url('pictures/icons/phone.svg');        
+        }
+    } 
+    &--adress {
+        padding-left: 10px;
+        min-width: 210px;
+        &::before {
+            content: "";
+            display: block;
+            position: absolute;
+            width: 8px;
+            height: 12px;
+            left: 0;
+            top:0;
+            background-image: url('pictures/icons/adress.svg');        
+        }
+    }  
+}
+
