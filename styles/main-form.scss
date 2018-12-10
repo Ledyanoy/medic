@@ -1,0 +1,43 @@
+.main-form {    
+    
+}
+
+.main-form__offer {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.main-form__inputs {
+      width: 39%;
+}
+
+.main-form__input:not(:last-child) {
+    margin-bottom: 17px;
+}
+
+.main-form__input {
+    border: 1px solid $button-w-color;
+    border-radius: 3px;
+    display: block;
+    width: 98%;
+    &--input {
+        height: 32px;
+        box-sizing: border-box;
+    }   
+    &--text  {
+        resize: none;
+        height: 79%;
+    }
+}
+
+.main-form__description {
+    width: 56%;
+}
+
+.main-form__button {
+    margin-top: 25px ;
+    margin-left: auto;
+}
+
+

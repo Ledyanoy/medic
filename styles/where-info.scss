@@ -1,4 +1,29 @@
 .where-info {
-    padding: 32px 0 15px 40px;
+    padding: 32px 85px 15px 40px;
     background-color: $tablet-item-back;
+    box-sizing: border-box;
+}
+
+.where-info__adress-link {
+    margin-top: 30px;
+}
+
+.where-info__phone-link {
+    margin-top: 25px;
+}
+
+.where-info__opening-hours {
+    margin-top: 45px;
+}
+
+.where-info__diagrams {
+    margin-top: 20px;
+}
+
+.where-info__socials {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 5px;
 }

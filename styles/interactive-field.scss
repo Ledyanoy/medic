@@ -1,0 +1,19 @@
+.interactive-field {
+     display: flex;     
+}
+
+.interactive-field__form {
+    width: 70%;
+}
+
+.interactive-field__description {
+    width: 51%;
+    padding-left: 35px;
+    padding-right: 10%;
+    box-sizing: border-box;
+    margin-top: 24px;
+}
+
+.interactive-field__phone {
+    margin-top: 10px;
+}

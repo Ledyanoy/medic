@@ -32,6 +32,12 @@
             top:0;
             background-image: url('pictures/icons/adress.svg');        
         }
-    }  
+    }     
+    &--adress-bottom {
+        padding-left: 20px;
+    }
+    &--phone-bottom {
+        padding-left: 25px;
+    }
 }
 

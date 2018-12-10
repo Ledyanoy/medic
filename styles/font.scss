@@ -60,4 +60,34 @@
         padding-right: 20px;
         color: $font-color;
     }
+    &--opening-hours {
+        font-size: 14px;
+        line-height: 15px;
+        text-align: center;
+    }
+    &--opening-hours-day {
+        font-size: 12px;
+        line-height: 15px;
+        text-align: center;
+        font-weight: bold;
+    }
+    &--opening-hours-time {
+        font-size: 12px;
+        line-height: 15px;
+        text-align: center;        
+    }
+    &--socials {
+        line-height: 15px;
+        font-size: 14px;
+    }
+    &--form {
+        line-height: 22px;
+        font-size: 14px;
+        display: block;
+    }
+    &--form-description {
+        line-height: 20px;
+        font-size: 14px;
+    }
+
 }
