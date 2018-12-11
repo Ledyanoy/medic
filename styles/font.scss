@@ -1,6 +1,8 @@
 .font{
+    text-decoration: none;
+    color: $font-color;
     &--about {
-        line-height: 24px;
+        line-height: 24px;        
     }
     &--service {
         font-size: 17px;
@@ -17,8 +19,7 @@
     }
     &--person-name {
         font-size: 18px;
-        line-height: 24px;
-        color: $font-color;
+        line-height: 24px;        
         font-weight: bold;
     }
     &--person-desc {
@@ -29,13 +30,11 @@
     &--news-header {
         font-size: 14px;
         line-height: 20px;
-        font-weight: bold;
-        color: $font-color;
+        font-weight: bold;        
     }
     &--news-topic {
         font-size: 14px;
-        line-height: 20px;
-        color: $font-color;
+        line-height: 20px;        
     }
     &--news-date {
         font-size: 12px;
@@ -57,8 +56,7 @@
     &--news-more-link {
         font-size: 12px;
         line-height: 20px;
-        padding-right: 20px;
-        color: $font-color;
+        padding-right: 20px;        
     }
     &--opening-hours {
         font-size: 14px;
@@ -89,5 +87,7 @@
         line-height: 20px;
         font-size: 14px;
     }
-
+    &--uppercase {
+        text-transform: uppercase;
+    }
 }

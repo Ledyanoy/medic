@@ -495,94 +495,81 @@ input {
   .about-list-item__text {
     margin-top: 15px; }
 
-.font--about {
-  line-height: 24px; }
-
-.font--service {
-  font-size: 17px;
-  line-height: 24px;
-  font-weight: bold;
-  margin-top: 5px; }
-
-.font--service-last {
-  font-size: 17px;
-  line-height: 16px;
-  font-weight: bold;
-  max-width: 150px;
-  margin: 7px auto 0 auto; }
-
-.font--person-name {
-  font-size: 18px;
-  line-height: 24px;
-  color: #5B5B5B;
-  font-weight: bold; }
-
-.font--person-desc {
-  font-size: 12px;
-  line-height: 16px;
-  color: #A3A3A3; }
-
-.font--news-header {
-  font-size: 14px;
-  line-height: 20px;
-  font-weight: bold;
+.font {
+  text-decoration: none;
   color: #5B5B5B; }
-
-.font--news-topic {
-  font-size: 14px;
-  line-height: 20px;
-  color: #5B5B5B; }
-
-.font--news-date {
-  font-size: 12px;
-  line-height: 16px;
-  padding-left: 25px;
-  color: #A3A3A3;
-  position: relative; }
-  .font--news-date::before {
-    content: '';
-    display: block;
-    position: absolute;
-    left: 0;
-    width: 16px;
-    height: 16px;
-    background-color: #C4C4C4;
-    border-radius: 3px; }
-
-.font--news-more-link {
-  font-size: 12px;
-  line-height: 20px;
-  padding-right: 20px;
-  color: #5B5B5B; }
-
-.font--opening-hours {
-  font-size: 14px;
-  line-height: 15px;
-  text-align: center; }
-
-.font--opening-hours-day {
-  font-size: 12px;
-  line-height: 15px;
-  text-align: center;
-  font-weight: bold; }
-
-.font--opening-hours-time {
-  font-size: 12px;
-  line-height: 15px;
-  text-align: center; }
-
-.font--socials {
-  line-height: 15px;
-  font-size: 14px; }
-
-.font--form {
-  line-height: 22px;
-  font-size: 14px;
-  display: block; }
-
-.font--form-description {
-  line-height: 20px;
-  font-size: 14px; }
+  .font--about {
+    line-height: 24px; }
+  .font--service {
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: bold;
+    margin-top: 5px; }
+  .font--service-last {
+    font-size: 17px;
+    line-height: 16px;
+    font-weight: bold;
+    max-width: 150px;
+    margin: 7px auto 0 auto; }
+  .font--person-name {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: bold; }
+  .font--person-desc {
+    font-size: 12px;
+    line-height: 16px;
+    color: #A3A3A3; }
+  .font--news-header {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: bold; }
+  .font--news-topic {
+    font-size: 14px;
+    line-height: 20px; }
+  .font--news-date {
+    font-size: 12px;
+    line-height: 16px;
+    padding-left: 25px;
+    color: #A3A3A3;
+    position: relative; }
+    .font--news-date::before {
+      content: '';
+      display: block;
+      position: absolute;
+      left: 0;
+      width: 16px;
+      height: 16px;
+      background-color: #C4C4C4;
+      border-radius: 3px; }
+  .font--news-more-link {
+    font-size: 12px;
+    line-height: 20px;
+    padding-right: 20px; }
+  .font--opening-hours {
+    font-size: 14px;
+    line-height: 15px;
+    text-align: center; }
+  .font--opening-hours-day {
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    font-weight: bold; }
+  .font--opening-hours-time {
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center; }
+  .font--socials {
+    line-height: 15px;
+    font-size: 14px; }
+  .font--form {
+    line-height: 22px;
+    font-size: 14px;
+    display: block; }
+  .font--form-description {
+    line-height: 20px;
+    font-size: 14px; }
+  .font--uppercase {
+    text-transform: uppercase; }
 
 .services-list {
   display: flex;
@@ -1196,7 +1183,8 @@ input {
   text-align: center;
   text-transform: uppercase;
   border-radius: 4px;
-  font-weight: bold; }
+  font-weight: bold;
+  cursor: pointer; }
   .button--header {
     font-size: 10px;
     padding: 10px 0;
